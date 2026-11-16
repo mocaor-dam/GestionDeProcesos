@@ -1,4 +1,4 @@
-package ejercicio4;
+package boletin1.ejercicio4;
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class PadreEJ4 {
     public static void main(String[] args) throws Exception {
         // Preparamos y arrancamos el proceso hijo
-        ProcessBuilder pb = new ProcessBuilder("java", "src/ejercicio4/HijoEJ4.java");
+        ProcessBuilder pb = new ProcessBuilder("java", "src/boletin1.ejercicio4/HijoEJ4.java");
         Process proceso = pb.start();
 
         // ENVIAR DATOS AL HIJO

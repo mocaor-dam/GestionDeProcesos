@@ -1,4 +1,4 @@
-package ejercicio2;
+package boletin1.ejercicio2;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

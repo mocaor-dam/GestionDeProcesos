@@ -1,4 +1,4 @@
-package ejercicio7;
+package boletin1.ejercicio7;
 
 public class Ejercicio7 {
     static void main(String[] args) throws InterruptedException {

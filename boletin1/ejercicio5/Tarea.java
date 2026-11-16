@@ -1,4 +1,4 @@
-package ejercicio5;
+package boletin1.ejercicio5;
 
 public class Tarea {
     static void main(String[] args) throws InterruptedException {

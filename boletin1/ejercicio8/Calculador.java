@@ -1,4 +1,4 @@
-package ejercicio8;
+package boletin1.ejercicio8;
 
 public class Calculador {
     static void main(String[] args) {

@@ -1,11 +1,11 @@
-package ejercicio3;
+package boletin1.ejercicio3;
 
 import java.io.IOException;
 
 public class Padre {
 
     public static void main(String[] args) {
-        ProcessBuilder pb = new ProcessBuilder("java", "src/ejercicio3/Hijo.java", "10");
+        ProcessBuilder pb = new ProcessBuilder("java", "src/boletin1.ejercicio3/Hijo.java", "10");
 
         try {
             int res = pb.start().waitFor();

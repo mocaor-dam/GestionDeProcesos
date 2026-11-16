@@ -1,13 +1,13 @@
-package ejercicio7;
+package boletin1.ejercicio7;
 
 public class Ejercicio7B {
     public static void main(String[] args) throws Exception {
         System.out.println("Lanzando procesos...");
 
         // Necesitamos llamar a un programa externo (Tarea.java)
-        ProcessBuilder pb1 = new ProcessBuilder("java", "src/ejercicio5/Tarea.java", "Proceso 1", "2");
-        ProcessBuilder pb2 = new ProcessBuilder("java", "src/ejercicio5/Tarea.java", "Proceso 2", "2");
-        ProcessBuilder pb3 = new ProcessBuilder("java", "src/ejercicio5/Tarea.java", "Proceso 3", "2");
+        ProcessBuilder pb1 = new ProcessBuilder("java", "src/boletin1.ejercicio5/Tarea.java", "Proceso 1", "2");
+        ProcessBuilder pb2 = new ProcessBuilder("java", "src/boletin1.ejercicio5/Tarea.java", "Proceso 2", "2");
+        ProcessBuilder pb3 = new ProcessBuilder("java", "src/boletin1.ejercicio5/Tarea.java", "Proceso 3", "2");
 
         // Los arrancamos a la vez
         Process p1 = pb1.inheritIO().start();

@@ -1,6 +1,5 @@
-package ejercicio8;
+package boletin1.ejercicio8;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,11 +20,11 @@ public class Principal {
 
         try {
             for (int val : valores) {
-                // Si la clase Calculador está en un paquete (ej: ejercicio8.Calculador), cámbialo aquí
+                // Si la clase Calculador está en un paquete (ej: boletin1.ejercicio8.Calculador), cámbialo aquí
                 ProcessBuilder pb = new ProcessBuilder(
                         javaBin,
                         "-cp", classPath,
-                        "Calculador", // Si usas paquete, pon "ejercicio8.Calculador"
+                        "Calculador", // Si usas paquete, pon "boletin1.ejercicio8.Calculador"
                         String.valueOf(val)
                 );
 
